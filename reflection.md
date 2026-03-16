@@ -3,10 +3,19 @@
 Answer each question in 3 to 5 sentences. Be specific and honest about what actually happened while you worked. This is about your process, not trying to sound perfect.
 
 ## 1. What was broken when you started?
-
-- What did the game look like the first time you ran it?
-- List at least two concrete bugs you noticed at the start  
-  (for example: "the hints were backwards").
+The purpose of the game is to guess the number provided and hidden by the system.
+When I first ran the game, I noticed the following glitches:
+- There were no hints, even when the "Show hint" box was checked
+- Guesses are not submitted even after hitting "Enter"
+- Attempts are always recorded at 0
+- "New game" button does not work
+- When I entered 100, it tells me to go higher
+- When I entered 140, there's no warning of going over the limit
+- When I entered -2, it tells me to go lower
+- I have negative scores
+- Changing the levels does not change the level of the game
+- The range of "Hard" level is smaller than "Normal", and has lesser attempts
+- The game mentioned "Out of attempts" when I had a few more to go
 
 ---
 
@@ -15,7 +24,7 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
-
+- I used Claude Code for this project.
 ---
 
 ## 3. Debugging and testing your fixes
