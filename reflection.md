@@ -21,10 +21,7 @@ When I first ran the game, I noticed the following glitches:
 
 ## 2. How did you use AI as a teammate?
 
-- Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
-- Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
-- Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
-- I used Claude Code for this project.
+I used Claude Code for this project. One AI example that was correct was the reason why it was telling users to go lower when he number was too low and higher when the number was too high. An example that could be misleading was regarding the number of tries for each difficulty level.
 ---
 
 ## 3. Debugging and testing your fixes
@@ -34,17 +31,16 @@ When I first ran the game, I noticed the following glitches:
   and what it showed you about your code.
 - Did AI help you design or understand any tests? How?
 
+I decided a bug was fixed if I tested it and the results were as expected (eg the pressing the "Enter" button submits the guesses). The tests were designed on my own.
+
 ---
 
 ## 4. What did you learn about Streamlit and state?
 
-- How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+Streamlit "reruns" are like running the programmes from the beginning and states are something that tells the programme to remember, so the programme can start from a specific case.
 
 ---
 
 ## 5. Looking ahead: your developer habits
 
-- What is one habit or strategy from this project that you want to reuse in future labs or projects?
-  - This could be a testing habit, a prompting strategy, or a way you used Git.
-- What is one thing you would do differently next time you work with AI on a coding task?
-- In one or two sentences, describe how this project changed the way you think about AI generated code.
+One habit from this project I want to reuse in the future is using as many test cases as possible. Something I would do differently would be to go more in-depth in my code. This project helped me undersstand that while AI is a tool, it is not perfect.
